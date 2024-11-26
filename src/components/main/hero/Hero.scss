@@ -1,0 +1,57 @@
+.info {
+  padding: 20px;
+  text-align: center;
+  color: #555556;
+  a {
+    color: #599bde;
+  }
+}
+
+.hero__context {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+  text-align: center;
+  height: calc(100vh - 120px);
+  padding-top: 50px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin-bottom: 16px;
+
+  &__context {
+    .hero__title {
+      font-size: 60px;
+      font-weight: 550;
+    }
+    .hero__desc {
+      font-size: 24px;
+      font-weight: 500;
+    }
+  }
+
+  &__btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    button {
+      padding: 16px 20px;
+      border-radius: 50px;
+      cursor: pointer;
+      font-size: 18px;
+      font-weight: 500;
+    }
+  }
+}
+
+.grid{
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
